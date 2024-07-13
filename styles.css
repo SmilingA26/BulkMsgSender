@@ -1,0 +1,50 @@
+body {
+    font-family:sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid hwb(0 21% 78% / 0.877);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: hsl(145, 84%, 59%);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #080707;
+    border: none;
+    cursor: pointer;
+    font-weight:bold;
+    text-align: center;
+    border-radius: 8px;
+}
+button:hover{
+    background-color:rgb(120, 131, 103);
+}
+
+button:disabled {
+    background-color: #ccc;
+}
